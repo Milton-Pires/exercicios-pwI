@@ -1,0 +1,14 @@
+.coluna1{
+    background: #6d00a3;
+    display: inline-block;
+    width: 40%;
+    height: 150px;
+    border: solid red;
+}
+.coluna2{
+    background: #ba4aad ;
+    display: inline-block;
+    width: 40%;
+    height: 150px;
+    border: red solid;
+}

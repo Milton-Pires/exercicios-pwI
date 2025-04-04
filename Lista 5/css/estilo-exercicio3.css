@@ -1,0 +1,11 @@
+body{
+    background: rgb(114, 38, 38);
+}
+.intro{
+    color: lightgreen;
+    text-align: left;
+}
+.descricao{
+    color: rgb(141, 254, 190);
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+body{
+    background: lightblue;
+}
+.titulo{
+    color: #014b61;
+
+}
+p{
+    color: #001547;
+    font-family: "Quicksand", sans-serif;
+}
+a.botao{
+    color: #480475;
+}
+a.botao1:hover{
+    color: #04c745 ;
+    border:solid rgb(46, 207, 146) ;
+    border-radius: 10%;
+}
+a.botao1:visited{
+    color: #270be0;
+    border: dotted goldenrod;
+    border-radius: 10%;
+}
