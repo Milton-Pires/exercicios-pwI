@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar-se</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="/home/home.html"><img src="/home/img/logo.png" alt="Logo Craftsy"></a>
+        </div>
+        <div class="navegador">
+            <ol>
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Computadores</a></li>
+            </ol>
+        </div>
+        <div class="registrar">
+            <ol>
+                <li><a href="/login/login.html">Login</a></li>
+                <li><a href="/Registro/registro.html">Registro</a></li>
+            </ol>
+        </div>
+    </nav>
+    <div class="divform">
+        <form>
+            <h1>REGISTRAR</h1>
+            <label for="Nome">Nome</label>
+            <br>
+            <input type="text" placeholder="Digite seu nome">
+            <br>
+            <p>Obrigatório.</p>
+
+            <label for="Email" class="label">Email</label><br>
+            <input class="input" type="text" placeholder="email@email.com"><br>
+            <p>Obrigatório.</p>
+
+            <label for="Senha" class="label">Senha</label><br>
+            <input class="input" type="password" placeholder="senha"><br>
+            <p>Obrigatório.</p>
+            <h2>País de Nascimento</h2>
+            <select name="Paises">
+                <option value="">país de nascimento</option>
+                <option value="EUA">Estados Unidos</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <h2>Genero</h2>
+            <input type="radio" name="genero" value="masculino">
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" value="feminino">
+            <label for="genero">Feminino</label>
+            <input type="radio" name="genero" value="nenhum">
+            <label for="genero">Prefiro não dizer</label>
+            <h2>Hobbies</h2>
+            <input type="checkbox">
+            <label for="hobbie">Guitarra</label>
+            <input type="checkbox">
+            <label for="hobbie">Futebol</label>
+            <input type="checkbox">
+            <label for="hobbie">Tenis</label>
+            <input type="checkbox">
+            <label for="hobbie">Programação</label>
+            <h2>Comentários</h2>
+            <textarea name="mensagem" rows="7" cols="50"></textarea>
+            <input type="checkbox">
+            <label for="termos">Aceito os termos e condições</label>
+        </form>
+        <button><a href="/home/home.html">Registrar</a></button>
+        <button><a href="#">Cancelar</a></button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navegador*/
+body{
+    background-image: url(/home/img/bg-2.png);
+    position: relative;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    width: 1250px;
+    background-color: rgb(247, 86, 0);
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+.logo{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-items: center;
+}
+.navegador ol {
+    list-style: none;
+    display: flex;
+    gap: 4vh;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+.registrar ol{
+    list-style: none;
+    display: flex;
+    gap: 4vh;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+/*login*/
+.divform{
+    position: absolute;
+    top: 160px;
+    left: 810px;
+    width: 350px;
+}
+h1{
+    color: rgb(58, 58, 58);
+    position: absolute;
+    top: 0;   
+}
+form{
+    position: absolute;
+    top: 65px;
+    left: -55px;
+}
+.label{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(81, 76, 76);
+    
+}
+
+.input{
+    width: 350px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.lembrar{
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    right: -220px;
+    bottom: 0px;
+    margin-bottom: 20px;
+}
+.check{
+    position: absolute;
+    right: -31px;
+    height: 15px;
+    bottom: 88px;
+}
+p{
+  margin-top: 10px;
+  color: red;
+}
+button{
+    margin-top: 30px;
+    background-color: #2e2ee8;
+    width: 180px;
+    height: 47px;
+    border-radius: 20px;
+    border: solid 1px #2e2ee8;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
