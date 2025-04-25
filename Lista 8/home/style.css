@@ -16,7 +16,7 @@ nav{
     background-color: rgb(247, 86, 0);
     position: relative;
     top: 20px;
-    left: 300px;
+    left: 170px;
 }
 .logo{
     position: relative;
@@ -54,7 +54,7 @@ main{
     background-color: #f4f4f4;
     width: 800px;
     top: 50px;
-    left: 300px;
+    left: 205px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -181,7 +181,7 @@ aside{
     width: 320px;
     position: absolute;
     top: 90px;
-    right: 350px;
+    right: 155px;
     
 }
 aside h2{

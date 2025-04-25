@@ -5,7 +5,7 @@
 }
 /*navegador*/
 body{
-    background-image: url(/home/img/bg-2.png);
+    background-image: url('../home/img/bg-2.png');
     position: relative;
 }
 
@@ -16,7 +16,7 @@ nav{
     background-color: rgb(247, 86, 0);
     position: relative;
     top: 20px;
-    left: 300px;
+    left: 170px;
 }
 .logo{
     position: relative;
@@ -53,7 +53,7 @@ nav a{
 .divform{
     position: absolute;
     top: 160px;
-    left: 810px;
+    left: 720px;
     width: 350px;
 }
 h1{
