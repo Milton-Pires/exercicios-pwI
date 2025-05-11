@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-color: rgb(19,7,45);
+}
+/* Navegador */
+nav {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 0 20px;
+}
+nav img {
+    height: 64px;
+    margin: 20px 0;
+    position: relative;
+}
+li {
+    margin-right: 20px;
+    list-style: none;
+    font-size: 22px;
+    color: #eeebf0;
+    transition: font-size 0.5s;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 190px;
+    padding: 5px;
+    background-color: white;
+    color: rgb(19,7,45);
+    transition: padding 0.5s, font-size 0.5s;
+    text-align: center;
+}
+li:hover {
+    cursor: pointer;
+    font-size: 24px;
+}
+li a:hover {
+    padding: 6px;
+    font-size: 24px;
+}
+/* Main */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid rgb(19,7,45);
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, rgb(19,7,45), rgb(63,33,128));
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 105px;
+    padding: 20px;
+    position: absolute;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -230px;
+    margin-left: 75px;
+}
+#hash {
+    color: black;
+    border: rgb(176,169,255) 1px solid;
+    border-radius: 20px;
+    background-color: rgb(176,169,255);
+    display: inline-block;
+    padding: 9px;
+    font-size: 18px;
+    margin: 25px 0 10px 0;
+    max-width: 25%;
+}
+h2 {
+    margin: 15px 0;
+    font-size: 38px;
+    color: #f4f4f3;
+}
+#lorem {
+    margin: 15px 0;
+    font-size: 26px;
+}
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+button {
+    margin: 15px 0;
+    border: 1px white solid;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+button a {
+    color: #13072d;
+    text-decoration: none;
+}
