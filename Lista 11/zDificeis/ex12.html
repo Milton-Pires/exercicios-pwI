@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 12</h3>
+    <script>
+    function contarVogais(texto) {
+        let vogais = "aeiouAEIOU";
+        let total = 0;
+
+        for (let i = 0; i < texto.length; i++) {
+            if (vogais.includes(texto[i])) {
+                total++;
+            }
+        }
+
+        return total;
+}
+let frase = prompt("Digite uma frase:");
+console.log("Total de vogais:", contarVogais(frase));
+    </script>
+</body>
+</html>

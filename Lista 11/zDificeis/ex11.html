@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 11</h3>
+    <script>
+        let escolhajogador = parseInt(prompt("Digite o numero que você acha que é! (1-10)"))
+        let escolhacomputador = Math.floor(Math.random() * 10) + 1
+        while (escolhajogador !== escolhacomputador){
+            console.log(escolhacomputador)
+            alert("Tente novamente")
+            escolhajogador = parseInt(prompt("Digite o numero que você acha que é! (1-10)"))
+        }
+        
+        alert("Parabens você acertou! ")
+    </script>
+</body>
+</html>

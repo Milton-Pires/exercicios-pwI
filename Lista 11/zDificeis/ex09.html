@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 9</h3>
+    <script>
+        let ano = parseInt(prompt("Qual o ano?"))
+        if (ano % 4 === 0 && ano % 100 === 0 && ano % 400 === 0){
+            alert("O ano é bissexto!")
+        }
+        else if(ano % 4 === 0 && ano % 100 === 0 && ano !== 0){
+            alert("O ano não é bissexto")
+        }
+        else if(ano % 4 === 0){
+            alert ("O ano é bissexto")
+        }
+        else{
+            alert("O ano não é bissexto!")
+        }
+    </script>
+</body>
+</html>

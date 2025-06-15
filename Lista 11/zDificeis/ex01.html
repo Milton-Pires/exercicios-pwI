@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 1</h3>
+    <script>
+        function contador(texto){
+            const contadorDePalavras = texto.trim().split(" ")
+            return texto.trim === "" ? 0: contadorDePalavras.length;
+        }
+        const texto = prompt ("Digite uma frase")
+        console.log (contador(texto))
+    </script>
+</body>
+</html>

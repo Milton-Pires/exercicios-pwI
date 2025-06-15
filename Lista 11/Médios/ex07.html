@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 7</h3>
+    <script>
+        let n1 = parseFloat(prompt("Digite um numero"))
+        let n2 = parseFloat(prompt("Digite um numero"))
+        let operacao = prompt("Digite a operação (+, -, /, *)")
+        if (operacao === "+"){
+            let soma = n1+n2
+            alert ("A soma de " + n1 + "+" + n2 + " é " +  soma)
+        }
+        else if (operacao === "-"){
+            let sub = n1 - n2
+            alert ("A subtração de "  + n1 + "-" + n2 + " é " +  sub )
+        }
+        else if (operacao === "/"){
+            let div = n1/n2
+            alert ("A divisão de " + n1 + "/" + n2 + " é"  +  div)
+        }
+        else if (operacao === "*"){
+            let munt = n1*n2 
+            alert ("A muntiplicação de " + n1 + "*" + n2 + " é " +  munt)
+        }
+        else{
+            alert("Operação invalida!")
+        }
+    </script>
+</body>
+</html>

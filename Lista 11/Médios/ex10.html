@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Exercicio 10</h3>
+    <script>
+        let peso = parseFloat(prompt("Digite seu peso (em KG)"))
+        let altura = parseFloat (prompt ("Digite sua altura (em metros)"))
+        let calcIMC = peso/(altura*altura)
+        console.log(calcIMC)
+        if (calcIMC >= 18.5 && calcIMC <= 24.9){
+            alert("Você esta no peso normal!")
+        }
+        else if (calcIMC >= 25 && calcIMC <= 29.9){
+            alert("Você está em sobrepeso!")
+        }
+        else if (calcIMC >= 30 && calcIMC <= 34.9){
+            alert("Você está em nivel de obesidade!")
+        }
+        else if (calcIMC >= 35){
+            alert("Você está em nivel de obesidade extrema!")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Exercicio 8</h3>
+    <script>
+      let escolhajogador = parseInt (prompt( "Escolha entre Pedra (1); Papel (2); Tesoura (3)"));
+      let escolhaMaquina = Math.floor(Math.random() * 3) + 1;
+      if (escolhajogador === escolhaMaquina) {
+        alert("EMPATE! A máquina também escolheu: " + escolhaMaquina);
+      } else if (
+        (escolhajogador === 1 && escolhaMaquina === 2) ||
+        (escolhajogador === 2 && escolhaMaquina === 3) ||
+        (escolhajogador === 3 && escolhaMaquina === 1)
+      ) {
+        alert("Você perdeu! A máquina escolheu: " + escolhaMaquina);
+      } 
+      else {
+        alert("Parabéns, você ganhou! A máquina escolheu: " + escolhaMaquina);
+      }
+    </script>
+  </body>
+</html>
