@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Cabeçalho com navegador-->
+    <header>
+        <label class="toggle" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" name="" id="menu-toggle">
+        <nav>
+            <label class="toggle" for="menu-toggle"><i class="fa-solid fa-xmark"></i></label>
+            <ul>
+                <a href="#home"><li>home</li></a>
+                <a href="#about"><li>sobre</li></a>
+                <a href="#contact"><li>contato</li></a>
+                <a href="#login"><li>login</li></a>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteudo principal da pagina-->
+    <main>
+        <section id="home">
+            <h1>Disciplina PW-I</h1>
+            <p>"Turma 1º H - Web: conectando sonhos e códigos."</p>
+            <img src="./assets/undraw_static-website_x3tn.svg" alt="">
+        </section>
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, 
+                praesentium eos dolorum veniam quis corporis commodi ea 
+                repudiandae quod voluptatem a alias necessitatibus! 
+                Saepe incidunt voluptatibus, minima illo sequi laborum.</p>
+                <img src="./assets/undraw_about-me_5990.svg" alt="">
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            João Pedro <br>
+            <p>
+                📱 (11) 99572-6360
+                📧 milton.@etec.sp.gov.br
+            </p>
+            <img src="./assets/undraw_personal-email_hfut.svg" alt="">
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form action="" class="form-login">
+                <label for="">Usuário</label>
+                <input type="email" placeholder="Digite seu email">
+                <label for="">Senha</label>
+                <input type="password" placeholder="Digite sua Senha">
+                <input type="button" value="Entrar">
+            </form>
+            <img src="./assets/undraw_sign-up_z2ku.svg" alt="">
+        </section>
+    </main>
+</body>
+</html>
